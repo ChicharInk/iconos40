@@ -19,7 +19,7 @@
 
 ## Materia:
 
-### Estructura para el Diseño de Interfaces (10am a 1pm)
+### [Estructura para el Diseño de Interfaces](https://docs.google.com/spreadsheets/d/1HT6iW8OmG9MMbkl0haoVkwi6aDuaR1d88wfqF89p1J8/) (10am a 1pm)
 
 1. Sábado 06/Abr/2018
 1. Sábado 13/Abr/2018
