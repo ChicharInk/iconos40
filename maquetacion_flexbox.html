@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Título no más de 65 caractéres</title>
+  <meta name="description"
+    content="Descripción de lo que el documento HTML tiene como contenido, no rebasar los 165 caractéres">
+  <style>
+    * {
+      outline: black thin solid;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .item {
+      width: 100%;
+    }
+
+    @media screen and (min-width: 480px) {
+      .item {
+        width: 50%;
+        background-color: aqua;
+      }
+    }
+
+    @media screen and (min-width: 768px) {
+      .item {
+        width: 33.333333%;
+        background-color: rosybrown;
+      }
+    }
+
+    @media screen and (min-width: 1024px) {
+      .item {
+        width: 25%;
+        background-color: aliceblue;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>HOla</h1>
+  <section class="container">
+    <article class="item">Item 1</article>
+    <article class="item">Item 2</article>
+    <article class="item">Item 3</article>
+    <article class="item">Item 4</article>
+    <article class="item">Item 5</article>
+    <article class="item">Item 6</article>
+    <article class="item">Item 7</article>
+    <article class="item">Item 8</article>
+    <article class="item">Item 9</article>
+    <article class="item">Item 10</article>
+    <article class="item">Item 11</article>
+    <article class="item">Item 12</article>
+  </section>
+  <span>Span 1</span>
+  <span>Span 2</span>
+  <span>Span 3</span>
+  <span>Span 4</span>
+  <span>Span 5</span>
+  <span>Span 6</span>
+  <span>Span 7</span>
+</body>
+
+</html>
